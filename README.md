@@ -2,6 +2,8 @@
 
 A basic Express.js web application built with Node.js 22 LTS, designed for deployment on Microsoft Azure.
 
+**Last updated**: 2025-08-08 - Deployed to Azure
+
 ## Features
 
 - **Express.js** web framework
