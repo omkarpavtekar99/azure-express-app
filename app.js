@@ -71,6 +71,7 @@ app.use((err, req, res, next) => {
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
     console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+    console.log(`Deployment timestamp: ${new Date().toISOString()}`);
 });
 
 module.exports = app;
